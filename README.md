@@ -24,6 +24,8 @@ Learn how to use SQL to download data from the server using Aman's [tutorial](ht
 
 ## BadegerLink 
 
+http://badgerlink.newsmemory.com/wna/badgerlink/old.php
+
 Goal: automatically download tweets from the BadgerLink archive
 
 Technique: Python Web scrape 
