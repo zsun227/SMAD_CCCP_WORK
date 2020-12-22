@@ -17,13 +17,15 @@ Technique: SQL
 
 Code:
 
+Learn how to use SQL to download data from the server using Aman's [tutorial](https://github.com/amanabhishk/hadoop_guide) 
+
 ## BadegerLink 
 
 Goal: automatically download tweets from the BadgerLink archive
 
 Technique: Python Web scrape 
 
-Code
+[Code](https://github.com/zsun227/SMAD_CCCP_WORK/tree/main/Badgerlink-Pdf-master)
 
 ## LexisNexis
 
