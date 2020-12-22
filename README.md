@@ -15,7 +15,7 @@ Possible work: build a new table to import tweets downloaded from the Synthesio
 
 Technique: SQL
 
-Code:
+[Code](https://github.com/zsun227/SMAD_CCCP_WORK/tree/main/synthesio_newdashboard_1221)
 
 Learn how to use SQL to download data from the server using Aman's [tutorial](https://github.com/amanabhishk/hadoop_guide) 
 
