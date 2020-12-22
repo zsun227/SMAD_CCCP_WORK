@@ -1,5 +1,8 @@
 # SMAD_CCCP_WORK
 ## Synthesio Dashboard 
+
+https://www.synthesio.com/login/
+
 Goal: automatically download tweets from the Synthesio Dashboard.
 
 Technique: Selenium in Python
@@ -29,6 +32,8 @@ Technique: Python Web scrape
 
 ## LexisNexis
 
+https://www.lexisnexis.com/en-us/gateway.page
+
 Goal: automatically download tweets from the LexisNexis archive
 
 Technique: Selenium in Python
@@ -36,6 +41,8 @@ Technique: Selenium in Python
 Code:
 
 ## CrowdTangle 
+
+https://www.crowdtangle.com/
 
 Goal: extract information from the CrowdTangle API
 
