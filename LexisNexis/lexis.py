@@ -12,9 +12,9 @@ def build_driver():
     wd = webdriver.Chrome(executable_path=DRIVER_BIN)
     url = 'https://signin.lexisnexis.com/lnaccess/app/signin?aci=ls&back=https%3A%2F%2Fwww.lexisnexis.com%3A443%2Flawschool'
     wd.get(url)
-    wd.find_element_by_id('userid').send_keys('jlukito_cccp')
-    wd.find_element_by_id('password').send_keys('sjmc_cccp1')
-    wd.find_element_by_id('signInSbmtBtn').submit()  # 若是表单
+    wd.find_element_by_id('userid').send_keys('')
+    wd.find_element_by_id('password').send_keys('')
+    wd.find_element_by_id('signInSbmtBtn').submit() 
     return wd
 link = 'https://advance.lexis.com/search/?pdmfid=1000516&crid=eec67e61-14a7-4ddd-8ee5-719a0958b37b&pdsearchterms=(%22Nancy+VanderMeer%22+OR+%22Beth+Meyers%22+OR+%22Romaine+Quinn%22+OR+%22Lisa+Subeck%22+OR+%22Dave+Considine%22+OR+%22Chuck+Wichgers%22+OR+%22Patrick+Snyder%22+OR+%22James+Edming%22+OR+%22John+Macco%22+OR+%22Treig+Pronschinske%22+OR+%22Scott+Allen%22+OR+%22Cindi+Duchow%22+OR+%22Rebecca+Bradley%22+OR+%22Annette+Ziegler%22+OR+%22Shirley+Abrahamson%22+OR+%22Patience+D.+Roggensack%22+OR+%22Patience+Roggensack%22+OR+%22Ann+Walsh+Bradley%22+OR+%22Michael+Gableman%22+OR+%22Daniel+Kelly%22+OR+%22Patrick+Crooks%22+OR+%22Louis+Butler%22+OR+%22David+Prosser%22+OR+%22Rebecaa+Dallett%22+OR+romney+OR+obama+OR+clinton+OR+trump+OR+%22Marquette+University+Law+School+poll%E2%80%9D+OR+%22Marquette+Law+School+Poll%E2%80%9D+OR+%E2%80%9CMLSP%E2%80%9D+OR+%E2%80%9CDNR%22+OR+%22Department+of+Natural+Resources%E2%80%9D+OR+%E2%80%9CDPI%22+OR+%22Department+of+Public+Instruction%E2%80%9D+OR+%E2%80%9CGAB%22+OR+%22Government+Accountability+Board%E2%80%9D+OR+%22UW+Chancellor%22+OR+%22Kevin+Reilly%22+OR+%22Ray+Cross%22+OR+%22David+Ward%22+OR+%22John+Wiley%22+OR+%22Rebecca+Blank%22+OR+%22Biddy+Martin%22+OR+%22Tommy+Thompson%22+OR+%22Mark+Miller%22+OR+%22Van+Wanggaard%22+OR+%22Louis+Molepske%22)+AND+publication(Green+Bay+Press-Gazette)&pdstartin=hlct%3A1%3A8&pdtypeofsearch=searchboxclick&pdtimeline=Jan+01%2C+2010+to+Jul+31%2C+2018%7Cbetween&pdsearchtype=SearchBox&pdqttype=or&pdpsf=date&pdquerytemplateid=&ecomp=5pfLk&earg=pdpsf&prid=1c516f0a-4c64-4ef5-97c7-d8c2ebf288d5'
 
@@ -54,8 +54,8 @@ def download(driver,filename,ind):
         newd = webdriver.Chrome(executable_path=DRIVER_BIN)
         url = 'https://signin.lexisnexis.com/lnaccess/app/signin?aci=ls&back=https%3A%2F%2Fwww.lexisnexis.com%3A443%2Flawschool'
         newd.get(url)
-        newd.find_element_by_id('userid').send_keys('jlukito_cccp')
-        newd.find_element_by_id('password').send_keys('sjmc_cccp1')
+        newd.find_element_by_id('userid').send_keys('')
+        newd.find_element_by_id('password').send_keys('')
         newd.find_element_by_id('signInSbmtBtn').submit()  # 若是表单
         newd.get(link)
         sleep(5)
